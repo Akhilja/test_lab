@@ -1,5 +1,7 @@
 # test_lab
 
+
+```
 export default async function () {
   const response = await fetch(
     '/platform/classic/environment-api/v2/settings/objects?schemaIds=builtin:davis.anomaly-detectors&fields=objectId,value,modifiedBy&pageSize=500'
@@ -12,3 +14,4 @@ export default async function () {
   }));
   return detectors;
 }
+```
